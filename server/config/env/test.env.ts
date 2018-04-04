@@ -3,10 +3,10 @@ module.exports = {
   db: 'ts_api_test',
   dialect: 'postgres',
   username: 'postgres',
-  password: 'postgres',
+  password: 'PostGres',
   host: 'localhost',
   serverPort: 3000,
   pgPort: 5432,
-  dbURL: 'postgres://postgres:postgres@localhost:5432/ts_api_test',
+  dbURL: 'postgres://postgres:PostGres@localhost:5432/ts_api_test',
   secret: 'S3cr3t'
 }
